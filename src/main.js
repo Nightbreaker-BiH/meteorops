@@ -845,7 +845,7 @@ function renderShell() {
             </label>
             <button class="ghost-button hero-about-button" data-action="open-about">${t("O aplikaciji", "About app")}</button>
           </div>
-          <span class="eyebrow">Night-Breaker Lab | MeteorOps v1.3</span>
+          <span class="eyebrow">Night-Breaker Lab | MeteorOps v1.0</span>
           <p class="hero-author">${t("Autor: Alan Catovic", "Author: Alan Catovic")}</p>
           <div class="hero-banner">
             <img src="${heroImageUrl}" alt="${t("Naslovna slika aplikacije MeteorOps", "MeteorOps cover image")}" />
