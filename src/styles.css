@@ -16,6 +16,8 @@
 
 html {
   color-scheme: dark;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -877,11 +879,49 @@ textarea:focus {
   .control-grid,
   .mini-grid,
   .detail-grid,
+  .detail-grid.compact,
   .forecast-grid,
-  .fireball-item,
   .sector-grid,
   .station-grid {
     grid-template-columns: 1fr;
+  }
+
+  .section-heading p {
+    max-width: none;
+  }
+
+  .control-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .ghost-button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .metric-card strong,
+  .detail-card strong {
+    font-size: clamp(1.05rem, 7vw, 1.5rem);
+    line-height: 1.12;
+  }
+
+  .metric-card,
+  .detail-card,
+  .forecast-card,
+  .session-item,
+  .station-card,
+  .sector-card,
+  .weather-empty {
+    min-height: 0;
+  }
+
+  .forecast-card,
+  .detail-card,
+  .session-item,
+  .station-card,
+  .sector-card {
+    overflow-wrap: anywhere;
   }
 
   .weather-strip {
