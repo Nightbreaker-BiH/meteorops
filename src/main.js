@@ -333,7 +333,7 @@ function openAboutWindow() {
       "The setup and sky-map modules provide recommended framing, exposure, optimal look direction and sector allocation for multiple observers or cameras."
     ),
     t(
-      "Logger sesije, UTC event marker i fireball draft alati omogucavaju uredan zapis nauznih i operativnih podataka na terenu.",
+      "Logger sesije, UTC event marker i fireball draft alati omogucavaju uredan zapis operativnih podataka na terenu.",
       "The session logger, UTC event marker and fireball draft tools support clean scientific and operational record-keeping in the field."
     ),
     t(
